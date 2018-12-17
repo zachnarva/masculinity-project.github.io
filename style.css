@@ -1,0 +1,117 @@
+h6 {
+  font-size: .55em;
+}
+
+h7 {
+font-size: 2.65rem;
+font-weight: 400;
+color: #000;
+}
+
+h8{
+font-size: 1.1rem;
+font-weight: 200;
+}
+
+.citation{
+  font-size: 10px;
+  color: #ED713D;
+  display:inline;
+  padding: 0px;
+  margin: 0px;
+}
+
+p{
+font-size:1.35rem;
+font-weight:300;
+}
+
+a:link
+{
+  color: #ED713D;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a:hover
+{
+  background-color:#e2e3e4;
+  color: #ED713D;
+  text-decoration: none;
+}
+
+a:visited{color: #ED713D;  text-decoration: none;
+}
+
+.resources{
+  color: #000000;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted grey;
+    color: #2A486A;
+
+  }
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    background-color: #2A486A;
+    color: #FFFFFF;
+    padding: 10px 30px 10px 30px;
+    top: 100%;
+    margin-top: 15px;
+   /* Use half of the width (120/2 = 60), to center the tooltip */
+    border-radius: 5px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity .6s;
+}
+.tooltip:hover {
+  background-color:#e2e3e4;
+  color: #ED713D;
+  text-decoration: none;
+}
+
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+.tooltip-bottom {
+  width: auto;
+  top: 100%;
+  left: 50%;
+  margin-left: -50%;
+  }
+
+  .tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #2A486A transparent;
+}
+
+/**Feedback Field**/
+textarea{
+  background-color:#f1f2f2;
+}
+
+textarea[type="text"]
+{
+    font-size:16px;
+}
+
+textarea[type=text]:focus {
+    border: 3px solid #ED713D;
+    background-color: #FFFFFF;
+    color: black;
+}
